@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-image: url("../img/textura_papel.jpg");
+    background-repeat:repeat-y ;
+    background-size: contain
+    
+}
+
+h1 {
+    color:rgb(122, 0, 0);
+    font-family: 'EB Garamond', serif;
+    font-size: 68px;
+    margin-top: 0%;
+    font-weight:900
+   
+}
+
+h2{
+    color: rgb(122, 0, 0);
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+    
+blockquote{
+    color: rgb(4, 0, 44);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    border-left:rgb(122, 0, 0) 5px solid;
+    width: 500px;
+    padding: 20px;
+    
+    
+}
+
+h3{
+    color: rgb(4, 0, 44);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+p {
+    color: rgb(4, 0, 44);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+}
+
+.bajada__noticia {
+    color: rgb(122, 0, 0);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight:700;
+    border-bottom: 3px solid rgb(122, 0, 0);
+}
+
+#envoltorio__principal{
+    background-color: rgba(255,255,255,0.8);
+    width: 70%;
+    padding: 20px;
+    border-radius: 8px;
+
+    margin: 25px auto 0px auto
+
+    /* margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto; */
+}
+
+.imagen__principal{
+    width: 55%;
+    height: auto;
+}
+
+.video__principal{
+    width: 55%;
+    height: auto;
+    padding: auto;
+    border: 4px;
+}
